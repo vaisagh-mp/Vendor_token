@@ -9,6 +9,19 @@ The base URL for all API endpoints.
 }
 
 Endpoints
+#############################################################################################
+
+## Register
+
+To register a new user and generate a token, send a POST request to `/api/register/` with the required JSON payload containing `username` and `password`.
+
+POST /api/register/
+Content-Type: application/json
+
+{
+    "username": "example_user",
+    "password": "example_password"
+}
 
 #############################################################################################
 
