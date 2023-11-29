@@ -4,7 +4,7 @@
 Base URL
 The base URL for all API endpoints.
 {
-    "api/vendor": "http://127.0.0.1:8000/api/vendor/",
+    "api/vendor": "http://127.0.0.1:8000/api/vendors/",
     "api/purchase_orders": "http://127.0.0.1:8000/api/purchase_orders/"
 }
 
